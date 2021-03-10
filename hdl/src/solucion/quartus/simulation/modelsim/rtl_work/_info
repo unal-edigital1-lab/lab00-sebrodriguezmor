@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/simulation/modelsim
+vsum1bcc
+Z1 !s110 1600279389
+!i10b 1
+!s100 :Hjz4EiCW_KXQ4gUDRC3;3
+I=iGjzeHDBHKW:>]OHUoRR0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1600224331
+8C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v
+FC:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v
+L0 22
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1600279389.000000
+!s107 C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src|C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src
+Z8 tCvgOpt 0
+vsum4b
+R1
+!i10b 1
+!s100 Q<Vi9hEHYa^LzNjI?4K9O0
+IoXnzahMVHl5IkVl]ATTP>3
+R2
+R0
+R3
+8C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v
+FC:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src|C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v|
+!i113 1
+R6
+R7
+R8
+vsum4b_TB
+R1
+!i10b 1
+!s100 ka9l1nQ5;m5EL4aoAFcTQ3
+IXf^nfALcAZCe65W]R@IT>0
+R2
+R0
+w1600279358
+8C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v
+FC:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src|C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src
+R8
+nsum4b_@t@b

@@ -1,0 +1,265 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab01-s4b_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src {C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:09 on Sep 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src" C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v 
+# -- Compiling module sum1bcc
+# 
+# Top level modules:
+# 	sum1bcc
+# End time: 13:03:09 on Sep 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src {C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:09 on Sep 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src" C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v 
+# -- Compiling module sum4b
+# 
+# Top level modules:
+# 	sum4b
+# End time: 13:03:09 on Sep 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src {C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:09 on Sep 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src" C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v 
+# -- Compiling module sum4b_TB
+# 
+# Top level modules:
+# 	sum4b_TB
+# End time: 13:03:09 on Sep 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sum4b_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sum4b_TB 
+# Start time: 13:03:10 on Sep 16,2020
+# Loading work.sum4b_TB
+# Loading work.sum4b
+# Loading work.sum1bcc
+# ** Warning: (vsim-3015) C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum4b.v(30): [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /sum4b_TB/uut/s0 File: C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/src/sum1bcc.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-PLI-3536) $dumpvars() : The level argument (-1) must not be negative.    : C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v(39)
+#    Time: 0 ps  Iteration: 0  Instance: /sum4b_TB
+# El valor de  0 +  0 =  1
+# B, B,S
+# El valor de  1 +  1 =  2
+# B, B,S
+# El valor de  2 +  2 =  3
+# B, B,S
+# El valor de  3 +  3 =  4
+# B, B,S
+# El valor de  4 +  4 =  5
+# B, B,S
+# El valor de  5 +  5 =  6
+# B, B,S
+# El valor de  6 +  6 =  7
+# B, B,S
+# El valor de  7 +  7 =  8
+# B, B,S
+# El valor de  8 +  8 =  9
+# B, B,S
+# El valor de  9 +  9 = 10
+# B, B,S
+# El valor de 10 + 10 = 11
+# B, B,S
+# El valor de 11 + 11 = 12
+# B, B,S
+# El valor de 12 + 12 = 13
+# B, B,S
+# El valor de 13 + 13 = 14
+# B, B,S
+# El valor de 14 + 14 = 15
+# B, B,S
+# El valor de 15 + 15 =  0
+# B, B,S
+# El valor de  0 +  0 =  2
+# B, B,S
+# El valor de  1 +  1 =  3
+# B, B,S
+# El valor de  2 +  2 =  4
+# B, B,S
+# El valor de  3 +  3 =  5
+# B, B,S
+# El valor de  4 +  4 =  6
+# B, B,S
+# El valor de  5 +  5 =  7
+# B, B,S
+# El valor de  6 +  6 =  8
+# B, B,S
+# El valor de  7 +  7 =  9
+# B, B,S
+# El valor de  8 +  8 = 10
+# B, B,S
+# El valor de  9 +  9 = 11
+# B, B,S
+# El valor de 10 + 10 = 12
+# B, B,S
+# El valor de 11 + 11 = 13
+# B, B,S
+# El valor de 12 + 12 = 14
+# B, B,S
+# El valor de 13 + 13 = 15
+# B, B,S
+# El valor de 14 + 14 =  0
+# B, B,S
+# El valor de 15 + 15 =  1
+# B, B,S
+# El valor de  0 +  0 =  3
+# B, B,S
+# El valor de  1 +  1 =  4
+# B, B,S
+# El valor de  2 +  2 =  5
+# B, B,S
+# El valor de  3 +  3 =  6
+# B, B,S
+# El valor de  4 +  4 =  7
+# B, B,S
+# El valor de  5 +  5 =  8
+# B, B,S
+# El valor de  6 +  6 =  9
+# B, B,S
+# El valor de  7 +  7 = 10
+# B, B,S
+# El valor de  8 +  8 = 11
+# B, B,S
+# El valor de  9 +  9 = 12
+# B, B,S
+# El valor de 10 + 10 = 13
+# B, B,S
+# El valor de 11 + 11 = 14
+# B, B,S
+# El valor de 12 + 12 = 15
+# B, B,S
+# El valor de 13 + 13 =  0
+# B, B,S
+# El valor de 14 + 14 =  1
+# B, B,S
+# El valor de 15 + 15 =  2
+# B, B,S
+# El valor de  0 +  0 =  4
+# B, B,S
+# El valor de  1 +  1 =  5
+# B, B,S
+# El valor de  2 +  2 =  6
+# B, B,S
+# El valor de  3 +  3 =  7
+# B, B,S
+# El valor de  4 +  4 =  8
+# B, B,S
+# El valor de  5 +  5 =  9
+# B, B,S
+# El valor de  6 +  6 = 10
+# B, B,S
+# El valor de  7 +  7 = 11
+# B, B,S
+# El valor de  8 +  8 = 12
+# B, B,S
+# El valor de  9 +  9 = 13
+# B, B,S
+# El valor de 10 + 10 = 14
+# B, B,S
+# El valor de 11 + 11 = 15
+# B, B,S
+# El valor de 12 + 12 =  0
+# B, B,S
+# El valor de 13 + 13 =  1
+# B, B,S
+# El valor de 14 + 14 =  2
+# B, B,S
+# El valor de 15 + 15 =  3
+# B, B,S
+# El valor de  0 +  0 =  5
+# B, B,S
+# El valor de  1 +  1 =  6
+# B, B,S
+# El valor de  2 +  2 =  7
+# B, B,S
+# El valor de  3 +  3 =  8
+# B, B,S
+# El valor de  4 +  4 =  9
+# B, B,S
+# El valor de  5 +  5 = 10
+# B, B,S
+# El valor de  6 +  6 = 11
+# B, B,S
+# El valor de  7 +  7 = 12
+# B, B,S
+# El valor de  8 +  8 = 13
+# B, B,S
+# El valor de  9 +  9 = 14
+# B, B,S
+# El valor de 10 + 10 = 15
+# B, B,S
+# El valor de 11 + 11 =  0
+# B, B,S
+# El valor de 12 + 12 =  1
+# B, B,S
+# El valor de 13 + 13 =  2
+# B, B,S
+# El valor de 14 + 14 =  3
+# B, B,S
+# El valor de 15 + 15 =  4
+# B, B,S
+# El valor de  0 +  0 =  6
+# B, B,S
+# El valor de  1 +  1 =  7
+# B, B,S
+# El valor de  2 +  2 =  8
+# B, B,S
+# El valor de  3 +  3 =  9
+# B, B,S
+# El valor de  4 +  4 = 10
+# B, B,S
+# El valor de  5 +  5 = 11
+# B, B,S
+# El valor de  6 +  6 = 12
+# B, B,S
+# El valor de  7 +  7 = 13
+# B, B,S
+# El valor de  8 +  8 = 14
+# B, B,S
+# El valor de  9 +  9 = 15
+# B, B,S
+# El valor de 10 + 10 =  0
+# B, B,S
+# El valor de 11 + 11 =  1
+# B, B,S
+# El valor de 12 + 12 =  2
+# B, B,S
+# El valor de 13 + 13 =  3
+# B, B,S
+# El valor de 14 + 14 =  4
+# B, B,S
+# El valor de 15 + 15 =  5
+# B, B,S
+# El valor de  0 +  0 =  7
+# B, B,S
+# El valor de  1 +  1 =  8
+# B, B,S
+# El valor de  2 +  2 =  9
+# B, B,S
+# ** Note: $finish    : C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v(40)
+#    Time: 200 ns  Iteration: 0  Instance: /sum4b_TB
+# 1
+# Break in NamedBeginStat TEST_CASE at C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/solucion/quartus/../src/sum4b_TB.v line 40
+# End time: 13:19:19 on Sep 16,2020, Elapsed time: 0:16:09
+# Errors: 1, Warnings: 1

@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/quartus/simulation/modelsim
+vsum1bcc
+!s110 1600273691
+!i10b 1
+!s100 i@PSlJe[>F5XT?ODjheAV1
+I1:Fj>Zbg1eYJc6E[31_fQ2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1600224331
+8C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v
+FC:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1600273691.000000
+!s107 C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src|C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src
+tCvgOpt 0
